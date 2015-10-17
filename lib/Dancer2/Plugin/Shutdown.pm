@@ -9,6 +9,8 @@ use Moo::Role 2;
 
 with 'Dancer2::Plugin::Role::Shutdown';
 
+# VERSION
+
 on_plugin_import {
     my $self = shift;
     $self->app->add_hook(
