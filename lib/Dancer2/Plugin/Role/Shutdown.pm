@@ -65,7 +65,7 @@ sub has_valid_session {
 =func session_status
 
 =cut
- 
+
 sub session_status {
     my $app = shift; 
 
@@ -85,7 +85,7 @@ sub session_status {
 =method before_hook
 
 =cut
- 
+
 sub before_hook {
     my $self = shift;
     return unless $self->shared->{state};

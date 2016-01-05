@@ -73,7 +73,7 @@ register_plugin;
 
     use Dancer2;
     use Dancer2::Plugin::Shutdown;
-    
+
     $SIG{HUP} = sub {
         # on hangup, shutdown in 120 seconds
         shutdown_at(120);
