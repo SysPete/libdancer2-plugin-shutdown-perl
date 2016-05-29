@@ -5,7 +5,6 @@ package Dancer2::Plugin::Shutdown;
 # ABSTRACT: Graceful shutdown your Dancer2 application
 
 use Dancer2::Plugin;
-use Moo::Role 2;
 
 with 'Dancer2::Plugin::Role::Shutdown';
 
